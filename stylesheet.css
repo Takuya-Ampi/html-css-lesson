@@ -1,0 +1,48 @@
+.header{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  top: 10px;
+  position: relative;
+}
+/*'left is not working on title */
+.title{
+  width: 120px;
+  height: 40px;
+  left: 230px;
+  background: #393E46;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  line-height: 40px;
+/*arial font because i cant buy meiryo*/
+  font-family: "Arial", sans-serif;
+}
+.firstsection{
+  font-size: 14px;
+  text-align: left;
+  font-family: "Arial", regular;
+  color: #24292E;
+  top: 10px;
+  left: 931px;
+  width: 41px;
+  height: 21px;
+  letter-spacing: 0px;
+}
+/*'left' is not working on both sections neither */
+.secondsection{
+  top: 10px;
+  left: 1002px;
+  width: 48px;
+  height: 21px;
+  text-align: left;
+  font-family: "Arial";
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #24292E;
+  opacity: 1;
+}
+/*i dont understand why ia image not full screened*/
+img{
+  margin-top: 100px;
+}
