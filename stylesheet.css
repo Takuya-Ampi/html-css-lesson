@@ -45,4 +45,5 @@
 /*i dont understand why ia image not full screened*/
 img {
   margin-top: 100px;
+  width: 100%;
 }
