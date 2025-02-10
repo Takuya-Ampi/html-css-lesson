@@ -1,49 +1,30 @@
-.header{
-  display: flex;
+.footer{
   align-items: center;
-  gap: 20px;
-  top: 10px;
-  position: relative;
+  text-align: center;
+  display: flex;
+  
 }
-/*'left is not working on title */
-.title{
-  width: 120px;
-  height: 40px;
-  left: 230px;
+.footer-logo{
   background: #393E46;
   color: white;
-  font-size: 32px;
-  text-align: center;
-  line-height: 40px;
-/*arial font because i cant buy meiryo*/
-  font-family: "Arial", sans-serif;
+  font: 10px Arial;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 70px;
+  height: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-left: 80px;
 }
-.firstsection{
-  font-size: 14px;
-  text-align: left;
-  font-family: "Arial", regular;
-  color: #24292E;
-  top: 10px;
-  left: 931px;
-  width: 41px;
-  height: 21px;
-  letter-spacing: 0px;
+.footer-list ul{
+  font-size: 10px;
+  font-family: Arial;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-left: 280px;
 }
-/*'left' is not working on both sections neither */
-.secondsection{
-  top: 10px;
-  left: 1002px;
-  width: 48px;
-  height: 21px;
-  text-align: left;
-  font-family: "Arial";
-  font-size: 14px;
-  letter-spacing: 0px;
-  color: #24292E;
-  opacity: 1;
-}
-/*i dont understand why ia image not full screened*/
 img {
-  margin-top: 100px;
-  width: 100%;
+ width: 100%;
 }
